@@ -1,4 +1,4 @@
-# [PROJECT NAME]- Contributions
+# DermAssistApp- Contributions
 
 
 ## Prerequisite
