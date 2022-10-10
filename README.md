@@ -69,7 +69,7 @@ Why not start your open source journey by merging some codes here. It will be ve
   *  Indent/Beautify/Modify codes.
 
 ### List of Contributors
-   Jump to [Contributors.md](https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/blob/main/contribute.md)
+   Jump to [Contributors.md](https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/blob/main/CONTRIBUTE.md)
    
 <br>
 <p align = "center"><h3>Thank You! Keep Contributing :octocat:</h3></p>
