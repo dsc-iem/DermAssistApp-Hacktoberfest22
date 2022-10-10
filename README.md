@@ -69,7 +69,7 @@ Why not start your open source journey by merging some codes here. It will be ve
   *  Indent/Beautify/Modify codes.
 
 ### List of Contributors
-   Jump to [Contributors.md](https://github.com/chaitak-gorai/Project-Template-Hacktoberfest22/blob/main/contributors.md)
+   Jump to [Contributors.md](https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/blob/main/contributors.md)
    
 ### Live project link
 * Heroku - [Project Link]
