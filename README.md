@@ -1,15 +1,16 @@
 <p align="center">
     <a href="https://blogbook-blog.herokuapp.com/">
-        <img src="https://raw.githubusercontent.com/dsc-iem/DermAssistApp-Hacktoberfest22/main/Hfest-Logo-2-Color-Manga.sv" alt="[Project Logo]" width="30%"> 
+        <img src="https://lh3.googleusercontent.com/6YN8jbF_gnQfXe2TtnkoePbs9JvmBU_ZTjpYrmjPgKHGnp9-ECz9K4E3uacdbm5C02nDFs7QUViNbYk5kjZXoR75QOmY_oY6Ui-qZIGMZAUGU5p5vlk=e30" alt="[Project Logo]" width="10%"> 
     </a>
 </p> 
 
-### [Project Title]
+### DermAssistApp
 Hello,
-Welcome to.. {PROJECT BASIC INTRODUCTION]
-[PROJECT DOMAIN]
-### [PREREQUISITE KNOWLEDGE]
-* List down the technical aspects like HTML, NodeJs, Django
+Welcome to DermAssistApp. 
+### PREREQUISITE KNOWLEDGE
+* Flutter
+* Django
+* ComputerVision (OpenCV)
 
 
 
