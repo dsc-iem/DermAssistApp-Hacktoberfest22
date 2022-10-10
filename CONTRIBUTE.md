@@ -81,11 +81,7 @@ For android you have to add an additional flavor:
 You can run the tests with the ``flutter test``
 
 
-## How to contribute/ Creating a PR
-[Mention how to contribute or creating a successful PR]
-Like you want the contibutors to directly contibute in the main branch or create a separate branch for new PR.
+# Code Style
 
-## Recent updates
-[Mention any updates]
-
-## Any Other Info needed for the Contributions.
+Make sure to follow common Dart coding conventions, and follow all lints provided
+by `analysis_options.yaml` and [activate auto-formatting](https://flutter.dev/docs/development/tools/formatting) using `dartfmt`. 
