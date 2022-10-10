@@ -3,20 +3,71 @@
 
 ## Prerequisite
 * [Git](https://git-scm.com/downloads) 
-* Code Editor like [Vs Code](https://code.visualstudio.com/download)
-* Any other prerequisite
+* [Android Studio](https://bit.ly/3RXrm88)
+* [VS Code](https://code.visualstudio.com/)
+* [Django](https://www.djangoproject.com/)
+* [Flutter SDK](https://flutter.dev/?gclid=Cj0KCQjwhY-aBhCUARIsALNIC04HPxFezj8br4w4ZdcdjVk1IECPyl3TqvVu46orV0okeAWPJGJH5LUaAmXJEALw_wcB&gclsrc=aw.ds)
+* OpenCV and MediaPipe extensions
 
 ## Local Setup
 
-1. Fork the repository.
-2. Clone the Forked repo
-   * copy the repo link
-   * open git bash or command prompt and run the code 
-       ```
-       git clone <repo lin>
-       ```
+- Fork this repo (button on top)
+- Clone on your local machine
+
+```terminal
+git clone https://github.com/example
+```
+- Navigate to project directory.
+```terminal
+cd Hacktoberfest2022
+```
+
+- Create a new Branch
+
+```markdown
+git checkout -b my-new-branch
+```
+
+- Commit your changes.
+
+```markdown
+git commit -m "Issue or feature resolved"
+```
+- Then push 
+```markdown
+git push origin my-new-branch
+```
+
+
+- Create a new pull request from your forked repository
+
+<br>
+
 ## Running the project
-1. Mention down the points how to run the project locally.
+
+#### Setup Development Environment
+
+1. [Download Flutter](https://flutter.dev/docs/get-started/install) and make sure `flutter doctor` shows no errors.
+   * Latest Flutter dev channel should typically work, check out
+   * ⚠️ *no longer required*: (this should be fixed, just leaving it in, in case people still see this error) Right now one extra step is required after installing flutter: in the flutter directory change to `flutter/dev/tools` and run: `flutter pub get`. See the (flutter issue #65023)[https://github.com/flutter/flutter/issues/65023] for details.
+     otherwise you will stumble on errors like:
+     ```flutter/dev/tools/localization/bin/gen_l10n.dart:7:8: Error: Error when reading '/flutter/.pub-cache/hosted/pub.dartlang.org/args-1.6.0/lib/args.dart': The system cannot find the path specified.```
+2. Clone the repository `git clone https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22.git` (or better yet, create your own fork to make later creating Pull Requests easier).
+3. Initialize submodules `git submodule update --init`
+4. Change to the `DermAssistApp-Hacktoberfest22/` subdirectory:
+
+    ```shell
+    git clone https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22.git
+    cd dsc-iem/DermAssistApp-Hacktoberfest22
+    ```
+5. Launch DermAssistApp-Hacktoberfest22
+    ```shell
+    flutter run -t lib/env/development.dart
+    ```
+
+You are required to select a specific target file,
+usually this will be `lib/env/development.dart`.
+
 
 ## How to contribute/ Creating a PR
 [Mention how to contribute or creating a successful PR]
