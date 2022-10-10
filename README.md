@@ -6,7 +6,8 @@
 
 ### DermAssistApp
 Hello,
-Welcome to DermAssistApp. 
+Welcome to DermAssistApp. It as an AI-Based Skin Allergy Detection Application. The App scans image of the skin allergy affected skin part and then detects the genre of skin allergy and accordingly suggest medication.
+
 ### PREREQUISITE KNOWLEDGE
 * Flutter
 * Django
