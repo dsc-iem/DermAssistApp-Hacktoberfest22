@@ -68,6 +68,18 @@ git push origin my-new-branch
 You are required to select a specific target file,
 usually this will be `lib/env/development.dart`.
 
+In case of any doubt regarding how to clone project from github, do refer to the following link:
+[GFG ARticle](https://www.geeksforgeeks.org/how-to-import-a-flutter-project-from-github/)
+
+#### Running on Android
+
+For android you have to add an additional flavor:
+* Open the cloned repo in your Android Studio.
+* Open the ``Emulator`` from Android device manager(AVD)
+* Start the application with ``flutter run`` (please note that depending on how you run your emulator you will need to change the IP address of the server)
+
+You can run the tests with the ``flutter test``
+
 
 ## How to contribute/ Creating a PR
 [Mention how to contribute or creating a successful PR]
