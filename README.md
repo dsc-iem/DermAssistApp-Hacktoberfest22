@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://blogbook-blog.herokuapp.com/">
-        <img src="https://raw.githubusercontent.com/chaitak-gorai/Project-Template-Hacktoberfest22/main/Hfest-Logo-2-Color-Manga.sv" alt="[Project Logo]" width="30%"> 
+        <img src="https://raw.githubusercontent.com/dsc-iem/DermAssistApp-Hacktoberfest22/main/Hfest-Logo-2-Color-Manga.sv" alt="[Project Logo]" width="30%"> 
     </a>
 </p> 
 
@@ -18,7 +18,7 @@ Welcome to.. {PROJECT BASIC INTRODUCTION]
 
 <p align="center">
     <a href="https://hacktoberfest.digitalocean.com/">
-        <img src="https://raw.githubusercontent.com/chaitak-gorai/Project-Template-Hacktoberfest22/main/Hfest-Logo-2-Color-Manga.svg" width="30%">
+        <img src="https://raw.githubusercontent.com/dsc-iem/DermAssistApp-Hacktoberfest22/main/Hfest-Logo-2-Color-Manga.svg" width="30%">
     </a>
 </p>
 
@@ -26,10 +26,10 @@ Welcome to.. {PROJECT BASIC INTRODUCTION]
 
 <div align="center">
    
-   [![GitHub issues](https://img.shields.io/github/issues/chaitak-gorai/Project-Template-Hacktoberfest22?color=pink&logo=github)](https://github.com/acm-iem/Project-Template-Hacktoberfest22/issues)        [![GitHub PRs](https://img.shields.io/github/issues-pr/chaitak-gorai/Project-Template-Hacktoberfest22?style=social&logo=github)](https://github.com/chaitak-gorai/Project-Template-Hacktoberfest22/pulls)                    [![GitHub forks](https://img.shields.io/github/forks/chaitak-gorai/Project-Template-Hacktoberfest22?logo=git)](https://github.com/chaitak-gorai/Project-Template-Hacktoberfest22/network)
+   [![GitHub issues](https://img.shields.io/github/issues/dsc-iem/DermAssistApp-Hacktoberfest22?color=pink&logo=github)](https://github.com/acm-iem/Project-Template-Hacktoberfest22/issues)        [![GitHub PRs](https://img.shields.io/github/issues-pr/dsc-iem/DermAssistApp-Hacktoberfest22?style=social&logo=github)](https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/pulls)                    [![GitHub forks](https://img.shields.io/github/forks/dsc-iem/DermAssistApp-Hacktoberfest22?logo=git)](https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/network)
    
-   <a href="https://github.com/chaitak-gorai/blogbook/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/chaitak-gorai/Project-Template-Hacktoberfest22?color=2b9348"></a>
-<a href="https://github.com/chaitak-gorai/Project-Template-Hacktoberfest22/blob/master/LICENSE"><img src="https://img.shields.io/github/license/chaitak-gorai/Project-Template-Hacktoberfest22?color=2b9348" alt="License Badge"/></a>
+   <a href="https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/dsc-iem/DermAssistApp-Hacktoberfest22?color=2b9348"></a>
+<a href="https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/blob/master/LICENSE"><img src="https://img.shields.io/github/license/dsc-iem/DermAssistApp-Hacktoberfest22?color=2b9348" alt="License Badge"/></a>
 </div>
 
 ### 🗣 Hacktoberfest encourages participation in the open source community, which grows bigger every year. Complete the 2022 challenge and earn a limited edition T-shirt.
@@ -46,8 +46,8 @@ Welcome to.. {PROJECT BASIC INTRODUCTION]
 ---
 
 # Contribute
-   ### Do Read - [Code of Conduct](https://github.com/chaitak-gorai/Project-Template-Hacktoberfest22/blob/main/CODE_OF_CONDUCT.md)
-   ### Jump to - [Contribute.md](https://github.com/chaitak-gorai/Project-Template-Hacktoberfest22/blob/main/CONTRIBUTE.md) (updated)
+   ### Do Read - [Code of Conduct](https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/blob/main/CODE_OF_CONDUCT.md)
+   ### Jump to - [Contribute.md](https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/blob/main/CONTRIBUTE.md) (updated)
 Why not start your open source journey by merging some codes here. It will be very great if you review the code and  find some bugs and issues.
 
 ## Steps for a successful commit :zap:
