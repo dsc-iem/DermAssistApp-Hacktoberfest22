@@ -76,7 +76,17 @@ Why not start your open source journey by merging some codes here. It will be ve
 
 ### List of Contributors
    Jump to [Contributors.md](https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/blob/main/CONTRIBUTE.md)
-   
+ 
+ ## + Follow Me : } Quick Approval of Pull Request
+
+```py
+To get approval of the pull request much quicker and faster (`Follow Me`)🚀
+```
+
+<tr><td align="center"><a href="https://github.com/Soham-Chakraborty-8455"><kbd><img src="https://avatars3.githubusercontent.com/Soham-Chakraborty-8455?size=100" width="100px;" alt=""/></kbd><br /><sub><b>Soham-Chakraborty-8455</b></sub></a><br /></td>
+
+</tr>
+ 
 <br>
 <p align = "center"><h3>Thank You! Keep Contributing :octocat:</h3></p>
 
