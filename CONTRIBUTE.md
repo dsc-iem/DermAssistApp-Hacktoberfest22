@@ -9,6 +9,12 @@
 * [Flutter SDK](https://flutter.dev/?gclid=Cj0KCQjwhY-aBhCUARIsALNIC04HPxFezj8br4w4ZdcdjVk1IECPyl3TqvVu46orV0okeAWPJGJH5LUaAmXJEALw_wcB&gclsrc=aw.ds)
 * OpenCV and MediaPipe extensions
 
+## How to contribute to this project
+Here are 3 quick and painless ways to contribute to this project:
+
+* Add your name to the `CONTRIBUTORS.md` file
+* Add a profile page to the `profiles` directory
+
 ## Local Setup
 
 - Fork this repo (button on top)
@@ -85,3 +91,4 @@ You can run the tests with the ``flutter test``
 
 Make sure to follow common Dart coding conventions, and follow all lints provided
 by `analysis_options.yaml` and [activate auto-formatting](https://flutter.dev/docs/development/tools/formatting) using `dartfmt`. 
+
