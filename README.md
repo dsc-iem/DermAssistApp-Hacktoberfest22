@@ -55,7 +55,7 @@ This repository is open to all members of the GitHub community. Any member may c
 
 # Contribute
    ### Do Read - [Code of Conduct](https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/blob/main/CODE_OF_CONDUCT.md)
-   ### Jump to - [Contribute.md](https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/blob/main/CONTRIBUTE.md) (updated)
+   ### Jump to - [CONTRIBUTE.md](https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/blob/main/CONTRIBUTE.md) (updated)
 Why not start your open source journey by merging some codes here. It will be very great if you review the code and  find some bugs and issues.
 
 ## Steps for a successful commit :zap:
@@ -74,7 +74,7 @@ Why not start your open source journey by merging some codes here. It will be ve
   *  Indent/Beautify/Modify codes.
 
 ### List of Contributors
-   Jump to [Contributors.md](https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/blob/main/CONTRIBUTOR.md)
+   Jump to [CONTRIBUTOR.md](https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/blob/main/CONTRIBUTOR.md)
  
  ## + Follow Me : } Quick Approval of Pull Request
 
