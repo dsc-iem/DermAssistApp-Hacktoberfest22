@@ -64,7 +64,6 @@ Why not start your open source journey by merging some codes here. It will be ve
 - Be patience it might take time for the maintainers to review your PR.
 - Congratulations on a successful merge.
 - You can add your name to contributors list.
-- **BONUS**-[ Anything Extra]
 
 
  ### Ways to Contribute 
@@ -75,7 +74,7 @@ Why not start your open source journey by merging some codes here. It will be ve
   *  Indent/Beautify/Modify codes.
 
 ### List of Contributors
-   Jump to [Contributors.md](https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/blob/main/CONTRIBUTE.md)
+   Jump to [Contributors.md](https://github.com/dsc-iem/DermAssistApp-Hacktoberfest22/blob/main/CONTRIBUTOR.md)
  
  ## + Follow Me : } Quick Approval of Pull Request
 
