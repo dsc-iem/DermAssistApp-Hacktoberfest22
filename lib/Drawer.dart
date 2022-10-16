@@ -103,71 +103,91 @@ class _drawerState extends State<drawer> {
                         ),
                         Padding(
                           padding: const EdgeInsets.all(10.0),
-                          child: Container(
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.all(Radius.circular(20)),
-                              color: Color(0xFFFececec),
-                            ),
-                            padding: EdgeInsets.all(3.00),
+                          child: GestureDetector(
+                            onTap: (){
+                              //TODO: Open Gallery and pick Images
+                            },
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                                color: Color(0xFFFececec),
+                              ),
+                              padding: EdgeInsets.all(3.00),
 
-                            child: Text(
-                              '2.Upload From Gallery',
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: 20.00,
+                              child: Text(
+                                '2.Upload From Gallery',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  fontSize: 20.00,
+                                ),
                               ),
                             ),
                           ),
                         ),
                         Padding(
                           padding: const EdgeInsets.all(10.0),
-                          child: Container(
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.all(Radius.circular(20)),
-                              color: Color(0xFFFececec),
-                            ),
-                            padding: EdgeInsets.all(3.00),
+                          child: GestureDetector(
+                            onTap: (){
+                              //TODO: Open Camera and start scanning image
+                            },
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                                color: Color(0xFFFececec),
+                              ),
+                              padding: EdgeInsets.all(3.00),
 
-                            child: Text(
-                              '3.Scan Image',
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: 20.00,
+                              child: Text(
+                                '3.Scan Image',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  fontSize: 20.00,
+                                ),
                               ),
                             ),
                           ),
                         ),
                         Padding(
                           padding: const EdgeInsets.all(10.0),
-                          child: Container(
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.all(Radius.circular(20)),
-                              color: Color(0xFFFececec),
-                            ),
-                            padding: EdgeInsets.all(3.00),
+                          child: GestureDetector(
+                            onTap: (){
+                              //TODO: Get result history from database
+                            },
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                                color: Color(0xFFFececec),
+                              ),
+                              padding: EdgeInsets.all(3.00),
 
-                            child: Text(
-                              '4.Results History',
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: 20.00,
+                              child: Text(
+                                '4.Results History',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  fontSize: 20.00,
+                                ),
                               ),
                             ),
                           ),
                         ),
                         Padding(
                           padding: const EdgeInsets.all(10.0),
-                          child: Container(
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.all(Radius.circular(20)),
-                              color: Color(0xFFFececec),
-                            ),
-                            padding: EdgeInsets.all(3.00),
-                            child: Text(
-                              '5.Settings',
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: 20.00,
+                          child: GestureDetector(
+                            onTap: (){
+                              //TODO: Get access to settings page
+                            },
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                                color: Color(0xFFFececec),
+                              ),
+                              padding: EdgeInsets.all(3.00),
+                              child: Text(
+                                '5.Settings',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  fontSize: 20.00,
+                                ),
                               ),
                             ),
                           ),

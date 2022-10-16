@@ -1,3 +1,4 @@
+import 'package:derm_assist/main.dart';
 import 'package:flutter/material.dart';
 
 class HowtoUse extends StatelessWidget {
@@ -29,7 +30,10 @@ class _howtouseState extends State<howtouse> {
                 padding: const EdgeInsets.all(20.00),
                 child: GestureDetector(
                   onTap: (){
-                    Navigator.pop(context);
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => MyApp()),
+                    );
                   },
                   child: Container(
                     height: 40.00,
