@@ -1,4 +1,6 @@
+import 'package:derm_assist/1.HowtoUse.dart';
 import 'package:flutter/material.dart';
+import 'package:derm_assist/1.HowtoUse.dart';
 
 class Drawer extends StatelessWidget {
   const Drawer({Key? key}) : super(key: key);
@@ -76,17 +78,25 @@ class _drawerState extends State<drawer> {
                         ),
                         Padding(
                           padding: const EdgeInsets.all(10.0),
-                          child: Container(
-                            padding: EdgeInsets.all(3.00),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.all(Radius.circular(20)),
-                              color: Color(0xFFFececec),
-                            ),
-                            child: Text(
-                              '1.How To Use',
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: 20.00,
+                          child: GestureDetector(
+                            onTap: (){
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => howtouse()),
+                              );
+                            },
+                            child: Container(
+                              padding: EdgeInsets.all(3.00),
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.all(Radius.circular(20)),
+                                color: Color(0xFFFececec),
+                              ),
+                              child: Text(
+                                '1.How To Use',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  fontSize: 20.00,
+                                ),
                               ),
                             ),
                           ),
