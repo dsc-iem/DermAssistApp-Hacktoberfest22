@@ -1,6 +1,9 @@
 import 'package:derm_assist/1.HowtoUse.dart';
 import 'package:flutter/material.dart';
 import 'package:derm_assist/1.HowtoUse.dart';
+import 'package:image_picker/image_picker.dart';
+
+final ImagePicker _picker = ImagePicker();
 
 class Drawer extends StatelessWidget {
   const Drawer({Key? key}) : super(key: key);
@@ -24,14 +27,14 @@ class _drawerState extends State<drawer> {
     return Scaffold(
       backgroundColor: Color(0xFFFececec),
       body: SafeArea(
-        child:SingleChildScrollView(
+        child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Padding(
                 padding: const EdgeInsets.all(20.00),
                 child: GestureDetector(
-                  onTap: (){
+                  onTap: () {
                     Navigator.pop(context);
                   },
                   child: Container(
@@ -56,11 +59,13 @@ class _drawerState extends State<drawer> {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: <Widget>[
                             Image(
-                                image: AssetImage('images/dermassist.png'),
+                              image: AssetImage('images/dermassist.png'),
                               height: 60.00,
                               width: 60.00,
                             ),
-                            SizedBox(width: 5.00,),
+                            SizedBox(
+                              width: 5.00,
+                            ),
                             Text(
                               'DERM-ASSIST',
                               style: TextStyle(
@@ -79,16 +84,18 @@ class _drawerState extends State<drawer> {
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: GestureDetector(
-                            onTap: (){
+                            onTap: () {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(builder: (context) => howtouse()),
+                                MaterialPageRoute(
+                                    builder: (context) => howtouse()),
                               );
                             },
                             child: Container(
                               padding: EdgeInsets.all(3.00),
                               decoration: BoxDecoration(
-                                borderRadius: BorderRadius.all(Radius.circular(20)),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(20)),
                                 color: Color(0xFFFececec),
                               ),
                               child: Text(
@@ -104,16 +111,22 @@ class _drawerState extends State<drawer> {
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: GestureDetector(
-                            onTap: (){
+                            onTap: () async {
                               //TODO: Open Gallery and pick Images
+                              try {
+                                final XFile? image = await _picker.pickImage(
+                                    source: ImageSource.gallery);
+                              } catch (e) {
+                                print(e);
+                              }
                             },
                             child: Container(
                               decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(20)),
                                 color: Color(0xFFFececec),
                               ),
                               padding: EdgeInsets.all(3.00),
-
                               child: Text(
                                 '2.Upload From Gallery',
                                 textAlign: TextAlign.center,
@@ -127,16 +140,16 @@ class _drawerState extends State<drawer> {
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: GestureDetector(
-                            onTap: (){
+                            onTap: () {
                               //TODO: Open Camera and start scanning image
                             },
                             child: Container(
                               decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(20)),
                                 color: Color(0xFFFececec),
                               ),
                               padding: EdgeInsets.all(3.00),
-
                               child: Text(
                                 '3.Scan Image',
                                 textAlign: TextAlign.center,
@@ -150,16 +163,16 @@ class _drawerState extends State<drawer> {
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: GestureDetector(
-                            onTap: (){
+                            onTap: () {
                               //TODO: Get result history from database
                             },
                             child: Container(
                               decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(20)),
                                 color: Color(0xFFFececec),
                               ),
                               padding: EdgeInsets.all(3.00),
-
                               child: Text(
                                 '4.Results History',
                                 textAlign: TextAlign.center,
@@ -173,12 +186,13 @@ class _drawerState extends State<drawer> {
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: GestureDetector(
-                            onTap: (){
+                            onTap: () {
                               //TODO: Get access to settings page
                             },
                             child: Container(
                               decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(20)),
                                 color: Color(0xFFFececec),
                               ),
                               padding: EdgeInsets.all(3.00),
@@ -192,18 +206,18 @@ class _drawerState extends State<drawer> {
                             ),
                           ),
                         ),
-
                       ],
                     ),
                   ),
                 ),
               ),
-              SizedBox(height: 5.00,),
+              SizedBox(
+                height: 5.00,
+              ),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20.00),
                 child: Card(
-                    child: Image(image: AssetImage('images/Dermassist gif.gif')
-                    ),
+                  child: Image(image: AssetImage('images/Dermassist gif.gif')),
                   elevation: 5.00,
                 ),
               ),
