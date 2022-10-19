@@ -140,8 +140,14 @@ class _drawerState extends State<drawer> {
                         Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: GestureDetector(
-                            onTap: () {
+                            onTap: () async {
                               //TODO: Open Camera and start scanning image
+                              try {
+                                final XFile? image = await _picker.pickImage(
+                                    source: ImageSource.camera);
+                              } catch (e) {
+                                print(e);
+                              }
                             },
                             child: Container(
                               decoration: BoxDecoration(
