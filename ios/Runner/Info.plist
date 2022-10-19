@@ -47,5 +47,9 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>DermAssistApp require permission to access gallery</string>
+	<key>NSCameraUsageDescription</key>
+	<string>DermAssistApp requires permission to access camera</string>
 </dict>
 </plist>
