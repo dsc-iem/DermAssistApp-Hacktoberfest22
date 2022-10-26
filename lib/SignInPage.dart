@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:simple_icons/simple_icons.dart';
+import 'SignUpPage.dart';
+import 'HomePage.dart';
 
 var userId = TextEditingController();
 var password = TextEditingController();
@@ -146,7 +148,8 @@ class _SignInPageState extends State<SignInPage> {
               Padding(
                 padding: const EdgeInsets.all(20.0),
                 child: InkWell(
-                  onTap: () {},
+                  onTap: () => Navigator.of(context)
+                      .push(MaterialPageRoute(builder: (_) => HomePage())),
                   child: Container(
 
                     height: size.height/18,
@@ -223,7 +226,8 @@ class _SignInPageState extends State<SignInPage> {
                 style: TextStyle(fontSize: 35, fontWeight: FontWeight.w400),
               ),
               InkWell(
-                onTap: () {},
+                onTap: () => Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (_) => SignUpPage())),
                 child: const Text(
                   "Create Account",
                   style: TextStyle(fontSize: 35, fontWeight: FontWeight.w400, color: Colors.blue),
