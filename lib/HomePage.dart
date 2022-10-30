@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:simple_icons/simple_icons.dart';
 // import 'main.dart';
 import 'Drawer.dart';
+import 'SignInPage.dart';
+
+
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -41,7 +45,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(top:30.00),
+                      padding: EdgeInsets.only(top:30.00,left: 65),
                       child: Container(
                         height: 100.00,
                         width: 100.00,
@@ -50,7 +54,24 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.all(20.00),
+                      padding: const EdgeInsets.only(top: 20,left: 50),
+                      child: Ink(
+                        decoration: BoxDecoration(
+                            border: Border.all(color: Colors.black45, width: 2),
+
+                            borderRadius: BorderRadius.circular(50.0)),
+                        child: InkWell(
+                          onTap: () => Navigator.of(context)
+                              .push(MaterialPageRoute(builder: (_) => SignInPage())),
+                          child: const Icon(
+                            Icons.arrow_back_rounded,
+                            size: 36,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(top: 20.0,bottom: 20,right: 20),
                       child: Container(
                         height: 40.00,
                         width: 40.00,
